@@ -1,0 +1,28 @@
+{
+  "name": "bookbe",
+  "version": "1.0.0",
+  "description": "restful api creation ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "book-project"
+  },
+  
+  "keywords": [
+    "add",
+    "delete",
+    "post"
+  ],
+  "author": "hammed",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.2"
+  }
+}
