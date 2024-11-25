@@ -12,6 +12,20 @@ dotenv.config();
 const port = process.env.PORT || 3000;
 const dbUrl = process.env.MONGODB_URL;
 
+app.get('/', (req, res) => {
+  res.send(`
+    <h1>Welcome to the Book API</h1>
+    <p>Use the following endpoints to interact with the API:</p>
+    <ul>
+      <li>GET /api/books - Fetch all books</li>
+      <li>GET /api/books/:id - Fetch a single book by ID</li>
+      <li>POST /api/books - Add a new book</li>
+      <li>PUT /api/books/:id - Update a book by ID</li>
+      <li>DELETE /api/books/:id - Delete a book by ID</li>
+    </ul>
+  `);
+});
+
 // Middleware and routes
 app.use(express.json());
 app.use('/api', bookRoutes);
