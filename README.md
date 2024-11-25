@@ -2,12 +2,10 @@
 
 This is a RESTful API built with **Node.js**, **Express**, and **MongoDB**. The API allows you to manage a collection of books, including operations like adding, updating, deleting, and retrieving books.
 
-# Book API Documentation
-
 # DEPLOYMENT #
 You can access the link to the deployed API on Render through the link below:
 
-https://books-api-y2k0.onrender.com
+- https://books-api-y2k0.onrender.com
 
 ## Postman Collection
 
